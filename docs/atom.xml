@@ -1,5 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-12-01T16:12:04+08:00</updated><id>/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Reids</title><link href="/2017/12/01/reids.html" rel="alternate" type="text/html" title="Reids" /><published>2017-12-01T00:00:00+08:00</published><updated>2017-12-01T00:00:00+08:00</updated><id>/2017/12/01/reids</id><content type="html" xml:base="/2017/12/01/reids.html">&lt;p&gt;#测试编写
-	##测试一下附件&lt;/p&gt;</content><author><name></name></author><summary type="html">#测试编写 ##测试一下附件</summary></entry><entry><title type="html">『 读书笔记 』4月读书总结｜博文推荐</title><link href="/books-2016/2016/04/29/books-recommend-and-summarize-on-apr-2016.html" rel="alternate" type="text/html" title="『 读书笔记 』4月读书总结｜博文推荐" /><published>2016-04-29T00:00:00+08:00</published><updated>2016-04-29T00:00:00+08:00</updated><id>/books-2016/2016/04/29/books-recommend-and-summarize-on-apr-2016</id><content type="html" xml:base="/books-2016/2016/04/29/books-recommend-and-summarize-on-apr-2016.html">&lt;h2 id=&quot;写在前面&quot;&gt;写在前面&lt;/h2&gt;
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Your awesome title</title>
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="/css/default.css" type="text/css" />
+  <link rel="stylesheet" href="/css/desktop.css" type="text/css" />
+  <link rel="stylesheet" href="/css/mobile.css" type="text/css" />
+  <link rel="shortcut icon" href="/css/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/css/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+  <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="" />
+  <script src="/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="/js/jquery-migrate-1.2.1.js" type="text/javascript"></script>
+  <script src="/js/jquery.transit.min.js" type="text/javascript"></script>
+  <script src="/js/common.js" type="text/javascript"></script>
+
+<body>
+  <?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+   <title>Your awesome title</title>
+   <link href="" rel="self" type="application/atom+xml"/>
+   <link href="" rel="alternate" type="text/html" />
+   <updated>2017-12-01T11:54:10+08:00</updated>
+   <id></id>
+   <author>
+     <name></name>
+     <email></email>
+   </author>
+
+   
+   <entry>
+     <title>『 读书笔记 』4月读书总结｜博文推荐</title>
+     <link href="/books-2016/2016/04/29/books-recommend-and-summarize-on-apr-2016.html"/>
+     <updated>2016-04-29T00:00:00+08:00</updated>
+     <id>/books-2016/2016/04/29/books-recommend-and-summarize-on-apr-2016</id>
+     <content type="html">&lt;h2 id=&quot;写在前面&quot;&gt;写在前面&lt;/h2&gt;
 
 &lt;p&gt;计划是每月读 5-10 本书，书籍类型大概是三个方面的：金融，技术，管理。之所以选择这三个方面，一方面是因为自己对这三个方面都很有兴趣，其次是被 linkedin 创始人 Hoffman 的 &lt;a href=&quot;http://techcrunch.com/2012/02/14/in-startups-and-life-you-need-plan-a-b-and-z/&quot;&gt;ABZ 理论&lt;/a&gt; 深度影响。建议大家都看看 abz 理论那篇文章，如果我有空，也会整理一些常用的这类理论模型到博客里的。&lt;/p&gt;
 
@@ -199,7 +239,16 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;../books-recommend-and-summarize-on-mar-2016&quot;&gt;『 读书笔记 』3月读书总结和推荐&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;../books-recommend-and-summarize-on-apr-2016&quot;&gt;『 读书笔记 』4月读书总结｜博文推荐&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="books-2016" /><summary type="html">写在前面</summary></entry><entry><title type="html">『 Spark 』8. 实战案例 ｜ Spark 在金融领域的应用 ｜ 日内走势预测</title><link href="/2016/04/01/spark-in-finance-and-investing.html" rel="alternate" type="text/html" title="『 Spark 』8. 实战案例 ｜ Spark 在金融领域的应用 ｜ 日内走势预测" /><published>2016-04-01T00:00:00+08:00</published><updated>2016-04-01T00:00:00+08:00</updated><id>/2016/04/01/spark-in-finance-and-investing</id><content type="html" xml:base="/2016/04/01/spark-in-finance-and-investing.html">&lt;h2 id=&quot;写在前面&quot;&gt;写在前面&lt;/h2&gt;
+&lt;/ul&gt;
+</content>
+   </entry>
+   
+   <entry>
+     <title>『 Spark 』8. 实战案例 ｜ Spark 在金融领域的应用 ｜ 日内走势预测</title>
+     <link href="/2016/04/01/spark-in-finance-and-investing.html"/>
+     <updated>2016-04-01T00:00:00+08:00</updated>
+     <id>/2016/04/01/spark-in-finance-and-investing</id>
+     <content type="html">&lt;h2 id=&quot;写在前面&quot;&gt;写在前面&lt;/h2&gt;
 
 &lt;p&gt;本系列是综合了自己在学习spark过程中的理解记录 ＋ 对参考文章中的一些理解 ＋ 个人实践spark过程中的一些心得而来。写这样一个系列仅仅是为了梳理个人学习spark的笔记记录，所以一切以能够理解为主，没有必要的细节就不会记录了，而且文中有时候会出现英文原版文档，只要不影响理解，都不翻译了。若想深入了解，最好阅读参考文章和官方文档。&lt;/p&gt;
 
@@ -435,4 +484,13 @@ Tips: 如果插图看起来不明显，可以：1. 放大网页；2. 新标签�
   &lt;li&gt;&lt;a href=&quot;http://litaotao.github.io/spark-in-finance-and-investing&quot;&gt;『 Spark 』8. 实战案例 ｜ Spark 在金融领域的应用 ｜ 日内走势预测&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://litaotao.github.io/ipython-notebook-spark&quot;&gt;『 Spark 』9. 搭建 IPython + Notebook + Spark 开发环境&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://litaotao.github.io/boost-spark-application-performance&quot;&gt;『 Spark 』10. spark 应用程序性能优化｜12 个优化方法&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">写在前面</summary></entry></feed>
+&lt;/ul&gt;
+</content>
+   </entry>
+   
+
+</feed>
+
+
+</body>
+</html>
