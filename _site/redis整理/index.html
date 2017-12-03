@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>redis整理 - Hello, world! I'm dengzongzheng</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+
+    <meta content="Hello, world! I'm dengzongzheng" property="og:site_name">
+  
+    <meta content="redis整理" property="og:title">
+  
+  
+    <meta content="article" property="og:type">
+  
+  
+    <meta content="Redis是一种基于键值对(key-value)的NoSQL数据库。其值可以是由string(字符串)、hash(哈希)、list(列表)、set(集合)、zset(有序集合)、Bitmaps(位图)、HyperLogLog、GEO(地理信息定位)等" property="og:description">
+  
+  
+    <meta content="http://localhost:4000/redis%E6%95%B4%E7%90%86/" property="og:url">
+  
+  
+    <meta content="2017-12-02T05:00:00+08:00" property="article:published_time">
+    <meta content="http://localhost:4000/about/" property="article:author">
+  
+  
+    <meta content="http://localhost:4000/assets/img/software.jpg" property="og:image">
+  
+  
+    
+  
+  
+    
+    <meta content="redis特性" property="article:tag">
+    
+    <meta content="使用场景" property="article:tag">
+    
+  
+
+  
+    <meta name="twitter:card" content="Redis是一种基于键值对(key-value)的NoSQL数据库。其值可以是由string(字符串)、hash(哈希)、list(列表)、set(集合)、zset(有序集合)、Bitmaps(位图)、HyperLogLog、GEO(地理信息定位)等">
+  
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+  
+    <meta name="twitter:title" content="redis整理">
+  
+  
+    <meta name="twitter:url" content="http://localhost:4000/redis%E6%95%B4%E7%90%86/">
+  
+  
+    <meta name="twitter:description" content="Redis是一种基于键值对(key-value)的NoSQL数据库。其值可以是由string(字符串)、hash(哈希)、list(列表)、set(集合)、zset(有序集合)、Bitmaps(位图)、HyperLogLog、GEO(地理信息定位)等">
+  
+  
+    <meta name="twitter:image:src" content="http://localhost:4000/assets/img/software.jpg">
+  
+
+	<meta name="description" content="Redis是一种基于键值对(key-value)的NoSQL数据库。其值可以是由string(字符串)、hash(哈希)、list(列表)、set(集合)、zset(有序集合)、Bitmaps(位图)、HyperLogLog、GEO(地理信息定位)等">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-touch-icon-114x114.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="/"><img src="/assets/img/dengzongzheng-freeman.jpg" alt="dengzongzheng"></a>
+      </div>
+      <div class="author-name">dengzongzheng</div>
+      <p>I am a web developer focusing on front-end development. Always hungry to keep learning.</p>
+    </div>
+  </header> <!-- End Header -->
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        
+          <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        
+        
+          <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        
+        
+          <li class="github"><a href="http://github.com/dengzongzheng" target="_blank"><i class="fa fa-github"></i></a></li>
+        
+        
+          <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        
+        
+          <li class="email"><a href="mailto:dengzongzong@gmail.com# add your Email address"><i class="fa fa-envelope-o"></i></a></li>
+        
+      </ul>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>2017 &copy; dengzongzheng</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  <article class="article-page">
+  <div class="page-content">
+    
+    <div class="page-cover-image">
+      <img class="page-image" src=/assets/img/software.jpg alt="redis整理">
+    </div> <!-- End Page Cover Image -->
+    
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">redis整理</h1>
+        <div class="page-date"><span>2017, Dec 02&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </header>
+      <p>Redis是一种基于键值对(key-value)的NoSQL数据库。其值可以是由string(字符串)、hash(哈希)、list(列表)、set(集合)、zset(有序集合)、Bitmaps(位图)、HyperLogLog、GEO(地理信息定位)等多种数据结构和算法组成。因此redis可以满足很多应用场景，而且因为Redis会将所有数据存放于内存之中，所以读写性能很高。不仅如此，Redis还可以将内存的数据利用快照和日志的形式保存到硬盘上，这样在发生类似断电或者机器故障的时候，内存中的数据不会丢失。</p>
+
+<h3 id="redis特性">Redis特性</h3>
+
+<ol>
+  <li><strong>数度快</strong></li>
+</ol>
+
+<p>  正常情况下，Redis执行命令速度非常快，官方给出数字是读写性能可达10万/秒，当然这都取决于机器性能，不同机器有所差异。什么造就了Redis如此之高的性能，大致有如下几点：<br />
+  <strong>1.</strong>Redis的所有数据存放于内存中。<br />
+  <strong>2.</strong>Redis用C语言实现的，一般来说C语言实现的程序“距离”操作系统更近，执行速度相对较高。<br />
+  <strong>3.</strong>Redis使用单线程架构，避免了多线程可能带来的竞争问题。</p>
+
+<ol>
+  <li><strong>基于键值对的数据结构服务器</strong></li>
+</ol>
+
+<p>  Redis是基于键值对的数据库，与其他键值对数据库不同的是，Redis的值可以是多种数据结构，其多种数据结构可以支持很多种应用场景。它主要提供了5种数据结构：string(字符串)、list(列表）、set(集合）、zset(有序集合）、hash(哈希）。同时在string(字符串）的基础之上演变出Bitmap(位图)、HyperLogLog两种神奇的数据结构，并且随着LBS(Location Base Service,基于位置服务)的不断发展，Redis在3.2版本中加入了GEO(地理信息定位)的功能。</p>
+
+<ol>
+  <li>
+    <p><strong>丰富的功能</strong><br />
+ <strong>Redis出了数据结构还提供了其他功能。</strong><br />
+ 1.提供键过期功能，可以用来实现缓存。<br />
+ 2.提供发布订阅功能，可以用来实现消息系统。<br />
+ 3.支持Lua脚本功能，可以利用Lua创造出新的Redis命令。<br />
+ 4.提供简单事务功能，在一定程度上保证事务特性。<br />
+ 5.提供了流水线(pipeline)功能，这样客户端能将一批命令一次性传到Redis，减少了网络开销。</p>
+  </li>
+  <li>
+    <p><strong>简单稳定</strong><br />
+ 单线程模型使用服务端处理模型简单。</p>
+  </li>
+  <li><strong>客户端语言多</strong><br />
+ Redis提供了简单的TCP通迅协议，很多语言可以方便接入到Redis,其支持的客户端语言有如Java、PHP、Python、C、C++、Nodejs等。</li>
+  <li><strong>持久化</strong><br />
+ Redis提供两种持久化方式。RDB和AOF,可以用这两种策略将内存的数据保存到磁盘中，这样保证数据的持久性。</li>
+  <li><strong>主从复制</strong><br />
+ Redis提供了复制功能，实现多个相同数据的副本，复制功能是分布式Redis的基础。</li>
+  <li><strong>高可用和分布式</strong><br />
+ Redis从2.8版本提供了高可用实现，Redis Sentinel,它能确保Redis节点故障发现和自动转移。Redis从3.0版本开始提供分布式实现Redis Cluster。它是提供了高可用、读写容量的扩展性。</li>
+</ol>
+
+<h3 id="redis使用场景">Redis使用场景</h3>
+<ol>
+  <li>
+    <p><strong>Redis可以做什么</strong><br />
+ 1.<strong>缓存</strong><br />
+ 2.<strong>排行榜</strong><br />
+ 用到的数据结构list(列表)、zset(有序集合)</p>
+
+    <p>3.<strong>计数器应用</strong><br />
+ 4.<strong>消息对列系统</strong><br />
+ Redis提供的订阅功能和阻塞队列功能，可以用做消息系统，来实现业务解耦、非实时业务销峰。</p>
+  </li>
+  <li>
+    <p><strong>Redsi不可以做什么</strong><br />
+ 强事务型数据、大批量数据、冷备数据。</p>
+  </li>
+</ol>
+
+<h3 id="redis配置及可执行文件说明">Redis配置及可执行文件说明</h3>
+
+<h3 id="redis重大版本">Redis重大版本</h3>
+
+
+      <div class="page-footer">
+        <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text=redis整理&url=http://localhost:4000/redis%E6%95%B4%E7%90%86/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/redis%E6%95%B4%E7%90%86/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/redis%E6%95%B4%E7%90%86/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+        </div>
+        <div class="page-tag">
+          
+            <a href="/tags#redis特性" class="tag">&#35; redis特性</a>
+          
+            <a href="/tags#使用场景" class="tag">&#35; 使用场景</a>
+          
+        </div>
+      </div>
+      <section class="comment-area">
+  <div class="comment-wrapper">
+    
+    <div id="disqus_thread" class="article-comments"></div>
+    <script>
+      (function() {
+          var d = document, s = d.createElement('script');
+          s.src = '//mr-brown.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+  </div>
+</section> <!-- End Comment Area -->
+
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
+
+</div>
+
+  </div>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+</body>
+</html>
